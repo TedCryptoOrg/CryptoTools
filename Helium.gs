@@ -1,4 +1,26 @@
 /**
+ * @OnlyCurrentDoc
+ */
+/*====================================================================================================================================*
+  CryptoTools Google Sheet Feed by TedCryptoOrg
+  ====================================================================================================================================
+  Version:      0.1.0
+  Project Page: https://github.com/TedCryptoOrg/CryptoTools
+  Copyright:    (c) 2021 by TedCrypto
+  License:      MIT License
+  ------------------------------------------------------------------------------------------------------------------------------------
+  A library for importing ones balances, staking, rewards, lending & farming rates, dex volume & fees, uniswap new pairs into Google spreadsheets. Functions include:
+    GETHOTSPOTADDRESS               Return hotspot address by its name
+    GETHOTSPOTREWARDS               Return hotspot rewards
+
+  For bug reports see https://github.com/TedCryptoOrg/CryptoTools/issues
+  ------------------------------------------------------------------------------------------------------------------------------------
+  Changelog:
+  
+  0.1.0 Initial release
+  *====================================================================================================================================*/
+
+/**
  * Given hotspotname grab the hotspot address which can be used to identify
  * the hotspot in the API
  */
